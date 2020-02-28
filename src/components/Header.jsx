@@ -1,1 +1,0 @@
-will have home, newgame, and pause buttons
