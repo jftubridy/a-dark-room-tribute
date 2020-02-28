@@ -32,16 +32,16 @@ module.exports = {
   module: {
     rules: [
       {
-         test: /\.jsx?$/,
-         enforce: "pre",
-         loader: "eslint-loader",
-         exclude: /node_modules/,
-         options: {
-           emitWarning: true,
-           configFile: "./.eslintrc.json"
-         }
-       },
-       {
+        test: /\.jsx?$/,
+        enforce: "pre",
+        loader: "eslint-loader",
+        exclude: /node_modules/,
+        options: {
+          emitWarning: true,
+          configFile: "./.eslintrc.json"
+        }
+      },
+      {
         test: /\.(png|gif|jp(e*)g|svg)$/,
         use: {
           loader: 'url-loader',
@@ -75,7 +75,7 @@ module.exports = {
      new HtmlWebpackPlugin({
        template:'template.ejs',
        appMountId: 'react-app-root',
-       title: 'React Help Queue',
+       title: 'A Dark Room Tribute',
        filename: resolve(__dirname, "build", "index.html"),
      }),
   ]
