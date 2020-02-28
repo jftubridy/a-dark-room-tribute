@@ -5,8 +5,11 @@
 *  _This is a Web game that attempts to copy the game A Dark Room.  The intent is to practice using react and redux to manage state._
 
 ## Specs
-
+* _Page Diagram_
 ![](src\assets\images\First Dark Room Diagram.jpg)
+
+* _Component Tree Diagram_
+![](src\assets\images\Component Tree Diagram.jpg)
 
 ## Setup/Installation Requirements
 
