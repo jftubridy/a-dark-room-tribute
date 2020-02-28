@@ -6,10 +6,10 @@
 
 ## Specs
 * _Page Diagram_
-![](src\assets\images\First Dark Room Diagram.jpg)
+![](src/assets/images/First Dark Room Diagram.jpg)
 
 * _Component Tree Diagram_
-![](src\assets\images\Component-Tree-Diagram.jpg)
+![](src/assets/images/Component-Tree-Diagram.jpg)
 
 ## Setup/Installation Requirements
 
