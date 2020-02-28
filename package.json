@@ -8,12 +8,19 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-scripts": "3.4.0"
+    "react-router-dom": "^4.0.0",
+    "react-scripts": "3.4.0",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "styled-jsx": "^3.2.4",
+    "uuid": "^3.2.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "webpack-dev-server",
+    "lint": "eslint src/** src/**/**; exit 0",
+    "lint-fix": "eslint src/** src/**/** --fix; exit 0",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -30,5 +37,32 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "'a-dark-room-recreate'",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.13.1",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-react": "^7.18.3",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.29.0",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.4.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jftubridy/a-dark-room-tribute.git"
+  },
+  "author": "Joseph Tubridy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jftubridy/a-dark-room-tribute/issues"
+  },
+  "homepage": "https://github.com/jftubridy/a-dark-room-tribute#readme"
 }
