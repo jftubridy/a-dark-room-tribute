@@ -6,8 +6,19 @@ import Room from './Room';
 import Locations from './Locations';
 import Outside from './Outside';
 import Inventory from './Inventory';
+import { render } from '@testing-library/react';
 
 class App extends React.Component {
 
-  
+
+}
+
+render() {
+  return (
+    <div>
+      <Switch>
+
+      </Switch>
+    </div>
+  );
 }

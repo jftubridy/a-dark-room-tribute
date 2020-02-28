@@ -70,13 +70,13 @@ module.exports = {
   },
 
   plugins: [
-     new webpack.HotModuleReplacementPlugin(),
-     new webpack.NamedModulesPlugin(),
-     new HtmlWebpackPlugin({
-       template:'template.ejs',
-       appMountId: 'react-app-root',
-       title: 'A Dark Room Tribute',
-       filename: resolve(__dirname, "build", "index.html"),
-     }),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NamedModulesPlugin(),
+    new HtmlWebpackPlugin({
+      template:'template.ejs',
+      appMountId: 'react-app-root',
+      title: 'A Dark Room Tribute',
+      filename: resolve(__dirname, "build", "index.html"),
+    }),
   ]
 };
